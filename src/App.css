@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.card_shadow{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.btn_1{
+  background: rgb(240, 240, 240);
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.btn_1 a{
+  color: black;
+}
+
+.feature{
+  background: #EFF5F5!important;
+  padding: 10px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center
+}
+
+.checkbox .card{
+  padding: 5px;
+}
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  accent-color: green;
+}
+.contact input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  accent-color: #4D5672;
+}
+
+.contact .card{
+  background: #EFF3F3;
+}
+
+button{
+  background: #FF5E29!important;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  border-bottom-left-radius: 10px!important;
+  border-bottom-right-radius: 10px!important;
+  border: none;
+}
